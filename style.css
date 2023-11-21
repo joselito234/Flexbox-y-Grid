@@ -1,0 +1,145 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-style: normal;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f0f0;
+}
+
+header {
+  text-align: center;
+  font-size: 9rem;
+  margin-bottom: 20px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flexbox-example {
+  width: 100%;
+  max-width: 800px;
+  margin-bottom: 20px;
+}
+
+.flex-item {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  background-color: dodgerblue;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+}
+
+
+.grid-example {
+  width: 100%;
+  max-width: 800px;
+  margin-bottom: 20px;
+}
+
+.grid-container-1 {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-gap: 10px;
+}
+.grid-container-2 {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: auto auto auto auto;
+}
+.grid-container-3 {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 80px 200px auto 40px;
+}
+.grid-container-4 {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-rows: 80px 200px
+}
+.grid-container-5 {
+  display: grid;
+  grid-gap: 10px;
+  justify-content: space-evenly;
+}
+.grid-container-6 {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(3, 100px);
+  justify-content: space-around;
+}
+.grid-container-7 {
+  display: grid;
+  justify-content: space-between;
+  grid-gap: 10px;
+}
+.grid-container-8 {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-gap: 10px;
+  justify-content: center;
+}
+.grid-container-9 {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-gap: 10px;
+  justify-content: start;
+}
+.grid-container-10 {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-gap: 10px;
+  justify-content: end;
+  align-content: end;
+  grid-template-areas:
+    'header header header header header header'
+    'menu main main main right right'
+    'menu footer footer footer footer footer';
+}
+
+.grid-item {
+  width: 100px;
+  height: 100px;
+  background-color: dodgerblue;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+}
+.grid-item-1 {
+  width: 100px;
+  height: 100px;
+  background-color: dodgerblue;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  grid-column: 1 / 5;
+  font-family: Arial, sans-serif;
+}
+.grid-item-2 {
+  width: 100px;
+  height: 100px;
+  background-color: dodgerblue;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+}
+

@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplos de Flexbox y Grids</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        Ejemplos Flexbox
+    </header>
+    <div class="container">
+        <div class="flexbox-example">
+            <h1>Distribución equitativa</h1>
+            <div style="display: flex; justify-content: space-around;">
+                <div class="flex-item">1</div>
+                <div class="flex-item">2</div>
+                <div class="flex-item">3</div>
+            </div>
+        </div>
+    </div>
+    <h1>Alineacion vertical y horizontal</h1>
+        <div style="display: flex; justify-content: center; align-items: center;">
+            <div class="flex-item">A</div>
+            <div class="flex-item">B</div>
+            <div class="flex-item">C</div>
+        </div>
+    <h1>Distribucion equitativa y alineacion al final</h1>
+        <div style="display: flex; justify-content: space-between; align-items: flex-end;">
+            <div class="flex-item">X</div>
+            <div class="flex-item">Y</div>
+            <div class="flex-item">Z</div>
+        </div>
+    <h1>Alineacion al centro verticalmente y espaciado uniforme</h1>
+        <div style="display: flex; flex-direction: column; justify-content: center;">
+            <div class="flex-item">Uno</div>
+            <div class="flex-item">Dos</div>
+            <div class="flex-item">Tres</div>
+        </div>
+    <h1>Ordenamiento personalizado</h1>
+        <div style="display: flex;">
+            <div class="flex-item" style="order: 2;">Primero</div>
+            <div class="flex-item" style="order: 3;">Segundo</div>
+            <div class="flex-item" style="order: 1;">Tercero</div>
+        </div>
+    <h1>Espaciado flexible</h1>
+        <div style="display: flex; justify-content: space-around;">
+            <div class="flex-item" style="flex: 1;">A</div>
+            <div class="flex-item" style="flex: 2;">B</div>
+            <div class="flex-item" style="flex: 1;">C</div>
+        </div>
+    <h1>Alineacion al final con espaciado variable</h1>
+        <div style="display: flex; justify-content: flex-end;">
+            <div class="flex-item" style="flex-grow: 1;">P</div>
+            <div class="flex-item" style="flex-grow: 2;">Q</div>
+            <div class="flex-item" style="flex-grow: 1;">R</div>
+        </div>
+    <h1>Alineacion vertical inversa</h1>
+        <div style="display: flex; flex-direction: column-reverse;">
+            <div class="flex-item">1</div>
+            <div class="flex-item">2</div>
+            <div class="flex-item">3</div>
+        </div>
+    <h1>Flexbox con envoltura (wrap)</h1>
+        <div style="display: flex; flex-wrap: wrap;">
+            <div class="flex-item" style="flex-basis: 100px;">A</div>
+            <div class="flex-item" style="flex-basis: 100px;">B</div>
+            <div class="flex-item" style="flex-basis: 100px;">C</div>
+            <div class="flex-item" style="flex-basis: 100px;">D</div>
+            <div class="flex-item" style="flex-basis: 100px;">E</div>
+            <div class="flex-item" style="flex-basis: 100px;">F</div>
+        </div>
+    <h1>Flexbox con ordenamiento y cambio de tamaño</h1>
+        <div style="display: flex;">
+            <div class="flex-item" style="flex-grow: 1;">Pequeño</div>
+            <div class="flex-item" style="flex-grow: 2;">Mediano</div>
+            <div class="flex-item" style="flex-grow: 3;">Grande</div>
+        </div>
+    </div>
+    <header>
+        Ejemplos Grids
+    </header>
+    <div class="grid-example">
+        <h1>Ejemplo 1</h1>
+        <div class="grid-container-1">
+          <div class="grid-item">A</div>
+          <div class="grid-item">B</div>
+          <div class="grid-item">C</div>
+          <div class="grid-item">D</div>
+          <div class="grid-item">E</div>
+          <div class="grid-item">F</div>
+        </div>
+      </div>
+      <div class="grid-example">
+        <h1>Ejemplo 2</h1>
+        <div class="grid-container-2">
+          <div class="grid-item">A</div>
+          <div class="grid-item">B</div>
+          <div class="grid-item">C</div>
+          <div class="grid-item">D</div>
+          <div class="grid-item">E</div>
+          <div class="grid-item">F</div>
+        </div>
+      </div>
+      <div class="grid-example">
+        <h1>Ejemplo 3</h1>
+        <div class="grid-container-3">
+          <div class="grid-item">A</div>
+          <div class="grid-item">B</div>
+          <div class="grid-item">C</div>
+          <div class="grid-item">D</div>
+          <div class="grid-item">E</div>
+          <div class="grid-item">F</div>
+        </div>
+      </div>
+      <div class="grid-example">
+        <h1>Ejemplo 4</h1>
+        <div class="grid-container-4">
+          <div class="grid-item">A</div>
+          <div class="grid-item">B</div>
+          <div class="grid-item">C</div>
+          <div class="grid-item">D</div>
+          <div class="grid-item">E</div>
+          <div class="grid-item">F</div>
+        </div>
+      </div>
+      <div class="grid-example">
+        <h1>Ejemplo 5</h1>
+        <div class="grid-container-5">
+          <div class="grid-item">A</div>
+          <div class="grid-item">B</div>
+          <div class="grid-item">C</div>
+          <div class="grid-item">D</div>
+          <div class="grid-item">E</div>
+          <div class="grid-item">F</div>
+        </div>
+      </div>
+      <div class="grid-example">
+        <h1>Ejemplo 6</h1>
+        <div class="grid-container-6">
+          <div class="grid-item">A</div>
+          <div class="grid-item">B</div>
+          <div class="grid-item">C</div>
+          <div class="grid-item">D</div>
+          <div class="grid-item">E</div>
+          <div class="grid-item">F</div>
+        </div>
+      </div>
+      <div class="grid-example">
+        <h1>Ejemplo 7</h1>
+        <div class="grid-container-7">
+          <div class="grid-item">A</div>
+          <div class="grid-item">B</div>
+          <div class="grid-item">C</div>
+          <div class="grid-item">D</div>
+          <div class="grid-item">E</div>
+          <div class="grid-item">F</div>
+        </div>
+      </div>
+      <div class="grid-example">
+        <h1>Ejemplo 8</h1>
+        <div class="grid-container-8">
+          <div class="grid-item">A</div>
+          <div class="grid-item">B</div>
+          <div class="grid-item">C</div>
+          <div class="grid-item">D</div>
+          <div class="grid-item">E</div>
+          <div class="grid-item">F</div>
+        </div>
+      </div>
+      <div class="grid-example">
+        <h1>Ejemplo 9</h1>
+        <div class="grid-container-9">
+          <div class="grid-item-1">A</div>
+          <div class="grid-item-1">B</div>
+          <div class="grid-item-1">C</div>
+          <div class="grid-item-1">D</div>
+          <div class="grid-item-1">E</div>
+          <div class="grid-item-1">F</div>
+        </div>
+      </div>
+      <div class="grid-example">
+        <h1>Ejemplo 10</h1>
+        <div class="grid-container-10">
+          <div class="grid-item-2">A</div>
+          <div class="grid-item-2">B</div>
+          <div class="grid-item-2">C</div>
+          <div class="grid-item-2">D</div>
+          <div class="grid-item-2">E</div>
+          <div class="grid-item-2">F</div>
+        </div>
+      </div>  
+</body>
+</html>
